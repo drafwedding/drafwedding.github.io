@@ -3,8 +3,8 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: #fff;
 }
 
 html {
@@ -18,17 +18,35 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Tangerine', cursive;
+  
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
+.akad-bg {
+  color: black;
+  background: url("../img/next.png") no-repeat center center scroll;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
   margin: 0 0 25px;
+
+}
+.p-part2{
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.p-part3{
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -37,7 +55,35 @@ p {
     line-height: 1.6;
     margin: 0 0 35px;
   }
+
+
+.akad-bg {
+  color: black;
+  background: url("../img/next.png") no-repeat center center scroll;
+  background-color: white;
+  -webkit-background-size: 768px;
+  -moz-background-size: 768px;
+  -o-background-size: 768px;
+  background-size: 768px;
 }
+
+}
+
+@media (max-width: 480px){
+.akad-bg {
+  color: black;
+  background: url("../img/next.png") no-repeat center center scroll;
+  background-color: white;
+  -webkit-background-size: 320px;
+  -moz-background-size: 320px;
+  -o-background-size: 320px;
+  background-size: 320px;
+  /*width: 100%;*/
+}
+
+
+}
+
 
 a {
   -webkit-transition: all 0.2s ease-in-out;
@@ -49,6 +95,10 @@ a {
 a:focus, a:hover {
   text-decoration: none;
   color: #1d9b6c;
+}
+
+.part2-header{
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 #mainNav {
@@ -105,8 +155,8 @@ a:focus, a:hover {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    border-bottom: 1px solid rgb(129, 101, 201);
+    background: rgba(166, 107, 170, 0.54);
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -121,24 +171,28 @@ a:focus, a:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  padding: 100px 0;
   text-align: center;
-  color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: black;
+  color: #534076;
+  background: url("../img/header.png") no-repeat bottom center scroll;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Courgette', cursive;
 }
 
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
+  font-family: 'Tangerine', cursive;
+
 }
 
 .masthead .intro-body .brand-heading {
-  font-size: 50px;
+  font-size: 20px;
+  font-family: 'Tangerine', cursive;
 }
 
 .masthead .intro-body .intro-text {
@@ -180,19 +234,22 @@ a:focus, a:hover {
 }
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .download-section {
-  color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
+  color: black;
+  background: url("../img/Exp51.png") no-repeat center center scroll;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+
+
 
 #map {
   width: 100%;
@@ -201,7 +258,7 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 200px;
   }
   #map {
