@@ -240,12 +240,12 @@ a:focus, a:hover {
 
 .download-section {
   color: black;
-  background: url("../img/Exp51.png") no-repeat center center scroll;
+  background: url("../img/3-1.png") repeat scroll;
   background-color: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 20%;
+  -moz-background-size: 20%;
+  -o-background-size: 20%;
+  background-size: 20%;
 }
 
 
