@@ -258,7 +258,7 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 200px;
   }
   #map {
